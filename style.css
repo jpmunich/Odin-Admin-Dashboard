@@ -6,7 +6,9 @@
 }
 
 :root {
-
+    --main-color: #2E5266;
+    --secondary-color: #A8AEC1;
+    --tertiary-color: #A09EBB;
 }
 
 #everything {
@@ -21,15 +23,22 @@
 
 nav {
     grid-area: nav;
-    background-color: tomato;
+    background-color: var(--main-color);
 }
 
 .sidebar {
     grid-area: sidebar;
-    background-color: turquoise;
+    background-color: var(--secondary-color);
+    display: grid;
+    grid-template-rows: repeat(10, 50px);
+}
+
+.sidebar-text-container {
+    display: grid;
+    grid-template-columns: 40px 50px;
 }
 
 #body {
     grid-area: body;
-    background-color: violet;
+    background-color: var(--tertiary-color);
 }
