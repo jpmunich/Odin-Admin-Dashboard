@@ -43,6 +43,10 @@ nav {
    grid-template-rows: 80px;
 }
 
+#nav-column-top > p, #nav-column-bottom > div > p {
+    color: white;
+}
+
 #nav-column-bottom {
     height: 80px;
     padding: 0 1em 0 1em;
