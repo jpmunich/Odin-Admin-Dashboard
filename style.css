@@ -6,10 +6,10 @@
 }
 
 :root {
-    --main-color: #2E5266;
-    --secondary-color: #A8AEC1;
-    --lighter-secondary-color: #c1c7db;
-    --tertiary-color: #A09EBB;
+    --main-color: #4b2e66;
+    --secondary-color: #b4a8c1;
+    --lighter-secondary-color: #cdc1db;
+    --tertiary-color: #a595b4;
     --large-font: 1.2rem;
     --medium-font: 1rem;
     --small-font: 0.75rem;
@@ -111,6 +111,10 @@ nav {
 
 .sidebar-text-container > p {
     font-weight: var(--bold-font);
+}
+
+#calendar-icon {
+    position: static;
 }
 
 .sidebar-text-container > img {
