@@ -106,7 +106,16 @@ nav {
 .sidebar-text-container {
     padding: 1em 0 0 1em;
     display: grid;
-    grid-template-columns: 40px 50px;
+    grid-template-columns: 2.8em 3em;
+}
+
+.sidebar-text-container > p {
+    font-weight: var(--bold-font);
+}
+
+.sidebar-text-container > img {
+    position: relative;
+    bottom: 4px;
 }
 
 h4 {
