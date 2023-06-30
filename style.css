@@ -144,7 +144,7 @@ h4 {
     border-radius: 0.5em;
     padding: 1em;
     background-color: var(--lighter-secondary-color);
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
 }
 
 .your-projects-grid-container > div > p {
@@ -179,7 +179,7 @@ h6 {
     margin-top: 0.6em;
     grid-gap: 0.1em;
     background-color: var(--lighter-secondary-color);
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
     border-radius: 0.5em;
     width: 85%;
     display: grid;
@@ -203,7 +203,7 @@ h6 {
     border-radius: 0.5em;
     margin-left: 1em;
     margin-top: 0.6em;
-    box-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
     display: grid;
     grid-gap: 0.5em;
 }
