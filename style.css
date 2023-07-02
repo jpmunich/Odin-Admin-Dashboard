@@ -15,7 +15,7 @@
     --medium-font: 1rem;
     --small-font: 0.75rem;
     --bold-font: 700;
-
+    --black-box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
 }
 
 body {
@@ -54,6 +54,7 @@ nav {
     background-color: var(--secondary-color);
     width: 70%;
     height: 2.5em;
+    box-shadow: var(--black-box-shadow);
 }
 
 #nav-column-top > p {
@@ -84,6 +85,7 @@ nav {
     font-weight: 700;
     background-color: var(--lighter-secondary-color);
     padding: 0.8em;
+    box-shadow: var(--black-box-shadow);
 }
 
 .nav-bottom-empty-space {
@@ -97,6 +99,7 @@ nav {
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    box-shadow: var(--black-box-shadow);
 }
 
 .profile-picture-bottom {
@@ -174,7 +177,7 @@ h4 {
     border-radius: 0.5em;
     padding: 1em;
     background-color: var(--lighter-secondary-color);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    box-shadow: var(--black-box-shadow);
 }
 
 .your-projects-grid-container > div > p {
@@ -211,7 +214,7 @@ h6 {
     margin-top: 0.6em;
     grid-gap: 0.1em;
     background-color: var(--lighter-secondary-color);
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    box-shadow: var(--black-box-shadow);
     border-radius: 0.5em;
     width: 85%;
     display: grid;
@@ -236,7 +239,7 @@ h6 {
     border-radius: 0.5em;
     margin-left: 1em;
     margin-top: 0.6em;
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    box-shadow: var(--black-box-shadow);
     display: grid;
     grid-gap: 0.5em;
 }
